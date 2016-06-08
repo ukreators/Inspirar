@@ -1,0 +1,81 @@
+
+.top{
+        width: auto;
+        height: 100px;
+       
+        background-color: #5EC1F2;
+    }
+    
+    .box{
+        width: 800px;
+        height: auto;
+        padding: 20px;
+        top:     130px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#FFFFFF ;
+        border-radius: 5px 10px 5px 5px;
+        border-color: #4EABF7;
+        border-style: solid;
+        border-width: 5px;
+        position: relative;
+        transition: background-color 2s;
+        
+    }
+    .box:hover{
+        background-color: #E4F3FA;
+       
+    }
+    .adv{
+        height: 400px;
+        width: 100px;
+        position: fixed;
+        background-color: black;
+        
+    }
+
+span.posttime{
+    font-size:0.75em;
+}
+table{
+     height: auto;
+     width: 800px; 
+     border-collapse: collapse;
+}
+tr{
+    
+    border-collapse: collapse;
+    
+}
+td{
+    width: 960px;
+    
+}
+
+tr.color2{
+    
+    background:#A3D6FA ;
+}
+
+
+body{
+    
+    font-family: "Times New Roman", Georgia, Garamond, "Palatino Linotype", Palatino, "Book Antiqua", "New York", serif;
+}
+
+
+
+h1,h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px color2, 0 0 5px color2;
+    text-align: center;
+    transition: color 1500ms;
+    
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 3.5em;
+}
+

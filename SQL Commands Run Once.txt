@@ -1,0 +1,40 @@
+CREATE DATABASE blogdata;
+
+USE blogdata;
+
+CREATE TABLE IF NOT EXISTS `comments` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `text` text NOT NULL,
+  `post_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ;
+
+--
+
+CREATE TABLE IF NOT EXISTS `feedback` (
+  `feedback` text
+) ;
+
+
+CREATE TABLE IF NOT EXISTS `hhcomments` (
+  `id` int(14) NOT NULL AUTO_INCREMENT,
+  `text` text NOT NULL,
+  `post_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ;
+
+
+
+
+CREATE TABLE IF NOT EXISTS `login1` (
+  `enroll_no` char(14) NOT NULL,
+  `year` int(4) DEFAULT NULL,
+  `branch` varchar(3) DEFAULT NULL,
+  `name` varchar(25) NOT NULL,
+  `sex` varchar(6) DEFAULT NULL,
+  `mobile` char(10) DEFAULT NULL,
+  `email` varchar(40) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`enroll_no`)
+) ;
+

@@ -1,0 +1,36 @@
+Inspirar: WEBSITE PROJECT
+
+Documentation:
+1.A local server with PHP parser is required like wamp or xamp installed on the system.
+2.In MySQL database .
+	->Open the file named ‘SQL Commands Run Once.txt’;
+	->Copy everything and paste in MySQL command window.
+	->Required database system will setup
+3. Copy Inspirar folder in www folder (in wamp) or htdocs folder (in xamp)
+4.Open any web browser
+5. Make sure your local server is running.
+6.In the address bar type localhost/Inspirar
+7. The home page is displayed
+8.You now have access to website
+
+SYSTEM REQUIREMENTS
+
+HARDWARE REQUIREMENTS
+On Server/Developer Side
+	Processor	: 	Intel® Core (TM) i3-5005U CPU @ 2.00GHz   2.00GHz
+	RAM                   	: 	2.00 GB.
+	OS			:	32-bit OS, x32 – based PROCESSOR.
+	Monitor     		: 	14’’ LCD or CRT Monitor or above.
+	 Keyboard            	: 	Standard windows keyboard
+             Device                        :         A Local Server with PHP Parser
+On Client Side
+              Device                      :         Standard PC device
+
+SOFTWARE REQUIREMENTS
+Developer/Server
+Languages                : 		PHP and MySQL,WAMP
+IDE 		         :		PHP Designer 8
+Platform                    :		Window 8/7/XP.
+Client
+	Browser		: Google Chrome, Internet Explorer 10
+
